@@ -1,0 +1,52 @@
+
+body{
+    font-family: arial;
+    font-size: 16px;
+    margin: 0;
+    background: #14204f;
+    color: #fff;
+}
+.note-box{
+    max-width: 1100px;
+    width: 100%;
+    margin: 50px auto 0;
+
+}
+.note-box h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.title-container button{
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #19a0fa;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.title-container button:hover{
+    background-color: #0078c8;
+}
+#note-text{
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    resize: none;
+    min-height: 200px;
+    width: 100%;
+   
+}
+#output{
+    display: flex;
+    flex-direction: column;
+    
+}
+
